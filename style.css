@@ -1,0 +1,463 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+  
+}
+body{
+   
+     
+  background-color: rgba(194, 194, 194, 0.5);
+}
+.Principal{
+    width:100VW;
+    height:100VH;
+    
+    background-image:url(img/unnamed.png);
+    background-size: cover;
+    background-position:center; 
+   }
+
+.conten{
+    margin: auto;
+    width: 80%;
+    height: 100%;    
+    flex-direction: column;
+   
+    
+   
+   
+}
+.botoms{
+    width: 100%;
+    height:5%;   
+    display: flex;
+    justify-content:flex-end;
+}
+.btnModo ,.btnIdioma{
+    width: 25vh;
+    height: auto;
+    
+}
+.cardbtn{   
+    background-color:#34495e;
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+
+.cardbtn span{
+    display: block;
+    width: 40%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{ 
+    
+    width: 100%;
+    height: 20%;     
+}
+.header  h1{
+    font-size:7vw;
+    color: rgba(44, 69, 151, 0.616);
+    letter-spacing: 7px;
+    margin:2px;
+    
+
+}
+.letra{ 
+    margin-right: 5px;
+    color:transparent;
+}   
+    
+
+.animation{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.288);
+animation: animation 1s linear infinite;
+
+}
+@keyframes animation{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.photo{
+    width:30vh;
+    height:80%;
+   
+}
+.photoLINEA{
+width:95%;
+height: 95%;
+border:1px solid rgba(62, 92, 190, 0.76) ;
+border-radius:50%;
+}
+.photo img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.descripcion{
+    width: 100%;
+    height:60% ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.articulo{    
+    width:100% ;
+    height: 50%;   
+   flex-direction: column;
+   
+   
+} 
+p{
+    display: block;
+    width: 80%;
+    font-size:3.5vh;
+    text-align: center;
+    letter-spacing: 2px;
+/* background-color: #EDD2F3; */
+
+   
+}
+.comilla{
+    color: rgb(43, 88, 170);
+}
+
+.social{
+    margin-top:1%;
+    width: 25vh;
+    height:15% ; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social a{
+    display: block;
+    width:15%;
+    height: 100%;      
+}
+
+.social a .redes{
+    width: 100%;
+    height: 100%;
+    filter: invert(48%) sepia(100%) saturate(2476%) hue-rotate(86deg) brightness(10%) contrast(300%);
+}
+.redesW{
+    filter: invert(48%) sepia(0%) saturate(1%) hue-rotate(86deg) brightness(0%) contrast(0%);
+}
+.redesW:hover{
+    width: 102%;
+    height: 102%;
+}
+.social a img:hover{
+    width: 102%;
+    height: 102%;
+    filter: invert(48%) sepia(100%) saturate(2476%) hue-rotate(86deg) brightness(5%) contrast(1%);
+}
+
+.footer{   
+    width: 100%;
+    height: 20%;  
+}
+.footer nav{
+    width: 80%;
+    height: 100%;    
+    display: flex; 
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.footer nav div{
+    width: 30%;
+    height:50% ;    
+    font-size:150% ;
+    /* background-color: blueviolet; */
+   
+}
+.footer nav div a{
+    text-decoration: none;
+   
+    padding: 7px;
+    color:#202020;
+   
+    
+}
+
+.footer nav div a:hover{
+    opacity: 0.5;
+    
+}
+
+.footer nav div a .p{
+    color: rgb(47, 106, 173);
+}
+
+
+
+.color{
+    color:white;
+}
+.body{
+width: 100%;
+height:100vh ;
+ background-color: cadetblue; 
+flex-direction: column;
+}
+
+.sobremi{
+    width: 80%;
+    height:40% ;    
+    flex-direction: column;    
+    /* background-color: chocolate; */
+}
+.sobremi h2{
+    font-size:2.5vw;
+    border-bottom: 5px solid darkcyan;
+    color: #b3b6b7;
+    letter-spacing: 5px;
+}
+.sobremi p{
+    color: #b3b6b7;
+    letter-spacing: 3px;
+    text-align:justify;
+}
+
+.experiencia{
+    width: 100%;
+    height: 60%;
+    /* background-color:chartreuse; */
+    flex-direction: column;
+}
+.general{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: cornflowerblue; */
+}
+.habilidades{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    /* background-color: darkblue; */
+}
+.habilidades h2 ,.extras h2,.proyectos h2{
+   
+    color: cornsilk;
+}
+.extras{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.proyectos{
+    width: 80%;
+    height: 50%;
+    flex-direction: column;
+    /* background-color: crimson; */
+}
+.center1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.png{
+    margin-top: 2%;
+    width:60%;
+    height:auto;
+    /* background-color: khaki; */
+}
+.png figure{
+    width:30% ;
+    height: 90%;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+
+ .html,.css,.js{
+    width:60%;
+    height: 70%;
+}
+.ana,.git,.xd{
+    width:50% ;
+    height:60% ;
+} 
+.cardpro{ 
+    padding: 20px;
+    width: 100%;
+    height:90%;
+    display: flex;
+    /* background-color: chartreuse; */
+    justify-content: space-around;
+    
+}
+.flecha{
+    width:19% ;
+    height:100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cardpro div span{
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+.primero{
+    flex-direction: column;
+    width:26% ;
+}
+
+.primero_1,.primero_1 a img{
+   
+    /* background-color: blueviolet; */
+    width: 99%;
+    height: 100%;
+    flex-direction: column;
+}
+.primero_1 a{
+    display: block;
+    width: 100%;
+    height: 90%;
+    /* background-color: cadetblue; */
+}
+
+@media screen  and (max-width:860px){
+      .footer nav div{ 
+         /* margin-left:50% ;
+        width: 50%;           */
+        font-size:130% ;   
+               
+    }
+    a{
+        font-size:90%;
+    }
+    .a{
+        font-size: 3.5vh;
+        letter-spacing: 0;
+    }
+    .sobremi h2{
+        font-size: 4vh;
+    }
+    .primero_1{
+        width: 99%;
+    }
+
+}
+
+
+
+
+@media screen  and (max-width:700px){
+    .P{
+        display: none;
+    }
+    .footer nav{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer nav div{
+        /* margin-left:35% ; */
+        width: 100%;
+        height: 50%;
+             
+    }
+    .footer nav div a{
+        border: 1px solid  darkcyan;
+    }
+    .center{
+        justify-content:space-around;        
+    }
+    .botoms{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .btnModo, .btnIdioma{
+        width: 8vh;
+        height: 4vh;
+    }
+    .header{   
+        height: 10%;
+        margin-bottom:2%;
+    }
+    .header h1{
+    margin-left: 10%;
+    }
+    .descripcion{
+        justify-content: flex-start;
+    }
+    .articulo{
+        height:10%;
+    }
+    p{
+        margin-top: 1%;
+        width: 100%;
+        font-size:4vw ;
+    }
+    .cardbtn{
+        width: 70%;
+    }
+    .photo{
+        margin-top: 15%;
+        width: 30vh ;
+        height:35vh;
+    }
+    .photo,.photoLINEA{
+        justify-content: center;
+    }
+    .body{
+       height: 130vh;
+    }
+    .a{
+        font-size: 2.5vh;
+        letter-spacing: 0;
+
+    }
+    .general{
+        flex-direction: column;
+    }
+     .habilidades ,.extras{
+         width: 100%;
+     }
+     .flecha{
+         width: 5%;
+         /* background: #34495e; */
+     }
+   .primero{
+       width: 43%;
+   }
+   .proyectos{
+       width: 100%;
+   }
+   .antes ,.despues{
+       width:20px;       
+       background-color: rgb(197, 200, 201);
+       border-radius: 30%;
+       
+   }
+ 
+}
